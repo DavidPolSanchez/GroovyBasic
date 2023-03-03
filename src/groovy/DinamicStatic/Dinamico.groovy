@@ -1,16 +1,16 @@
 class dinamico {
 
-    def saluda(){
-        def a =" Hola mundo"
+    def sayHi(){
+        def a =" Hello world"
 
         println a
         a = 3
         print a
     }
-    void depidete(){
+    void sayGoodbye(){
         Integer a =3
         println a
-        a = "adios"
+        a = "good bye"
         print a //!error en tiempo de ejecucion
     }
 }

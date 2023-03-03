@@ -4,6 +4,6 @@ import groovy.transform.CompileStatic;
 void depidete(){
     Integer a = 3
     println a
-    //a = "adios"
-    print a //!error en tiempo de compilacion
+    //a = "adios" //!error en tiempo de compilacion
+    print a
 }

@@ -9,22 +9,25 @@ class Laptop{
     println "Hello world!"
     //*automatically cast
     def name = sayYourName()
-    assert name == sayYourName()
-    assert args == "3"
-    assert args.class == String
+    assert "3" == sayYourName()
+    assert name == "3"
+    assert name.class == String
+    "logIn"()
+    logOut()
+
   }
 
-  def logIn()
+  static def logIn()
   {
     println ("System login!")
   }
 
-  def logOut()
+  static def "logOut"()
   {
     println ("System logout!")
   }
   //*automatically cast
-  String sayYourName(){
+  static String sayYourName(){
      3
   }
 }

@@ -5,7 +5,6 @@ package groovy.Lists;
 
       static void main(String[] args) {
           def lista = ["uno","dos","tres"]
-         def x = lista.length
          lista.size()
      }
 
